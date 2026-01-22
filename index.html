@@ -1,506 +1,196 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Emarath Global Private Limited — India-based arm of Emarath UAE. Technology, operations, sourcing, and cross-border commerce support." />
-  <meta name="theme-color" content="#0B1220" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emarath Global Private Limited — India-based arm of Emarath UAE, driving premium commerce at scale across technology, operations, sourcing, and regional expansion." />
+  <meta property="og:title" content="Emarath Global Private Limited" />
+  <meta property="og:description" content="Built to run premium commerce at scale — technology, operations, sourcing, and expansion for Emarath UAE." />
+  <meta property="og:image" content="assets/images/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://emarathglobal.com" />
 
   <title>Emarath Global Private Limited</title>
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Emarath Global Private Limited" />
-  <meta property="og:description" content="Built in the UAE. Driven by Indian excellence. A strategic hub for technology, operations, sourcing, and cross-border commerce support." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/images/og-image.png" />
+  <link rel="icon" type="image/png" href="assets/brand/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="assets/brand/mark.png" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
-
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-  <!-- HEADER -->
-  <header class="site-header" data-elevate>
-    <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Emarath Global Home">
-        <img class="brand-mark" src="assets/brand/mark.png" alt="" width="28" height="28" />
-        <img class="brand-logo" src="assets/brand/logo.png" alt="Emarath Global" width="160" height="34" />
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <img src="assets/brand/logo.png" alt="Emarath Global Logo">
       </a>
-
-      <nav class="nav" aria-label="Primary navigation">
-        <button class="nav-toggle" type="button" aria-controls="navMenu" aria-expanded="false">
-          <span class="sr-only">Open menu</span>
-          <span class="burger" aria-hidden="true"></span>
-        </button>
-
-        <div id="navMenu" class="nav-menu">
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#services">Services</a>
-          <a class="nav-link" href="#process">Process</a>
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-          <a class="nav-link" href="#testimonials">Testimonials</a>
-          <a class="nav-link" href="#faq">FAQ</a>
-          <a class="nav-link nav-cta" href="#contact">Contact</a>
-
-          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
-            <span class="theme-dot" aria-hidden="true"></span>
-            <span class="sr-only">Toggle theme</span>
-          </button>
-        </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle dark mode"></button>
+        <a href="https://wa.me/919048800047" class="btn btn-accent">WhatsApp</a>
+      </div>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO -->
-    <section id="top" class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <div class="pill-row" data-animate>
-            <span class="pill">
-              <span class="pulse-dot" aria-hidden="true"></span>
-              Dubai • Abu Dhabi • Sharjah
-            </span>
-          </div>
-
-          <h1 class="hero-title" data-animate>
-            Built in the UAE.<br />
-            <span class="hero-accent">Driven by Indian excellence.</span>
-          </h1>
-
-          <p class="hero-subtitle" data-animate>
-            Emarath Global Private Limited is the India-based arm of Emarath UAE, operating from HiLITE Business Park, Calicut (Kozhikode), Kerala.
-            We serve as a strategic hub for technology, operations, sourcing, and regional expansion — powering premium cross-border commerce.
-          </p>
-
-          <div class="hero-actions" data-animate>
-            <a class="btn btn-primary js-cta" href="#contact" data-event="cta_talk">Talk to us</a>
-            <a class="btn btn-ghost js-cta" href="assets/company-profile.pdf" download data-event="cta_download">
-              Download Company Profile
-            </a>
-          </div>
-
-          <div class="hero-highlights" data-animate>
-            <div class="mini-card">
-              <div class="mini-title">Premium</div>
-              <div class="mini-text">Perfumes • Fashion • Watches</div>
-            </div>
-            <div class="mini-card">
-              <div class="mini-title">Ops-Led</div>
-              <div class="mini-text">Quality • CX • Supply chain</div>
-            </div>
-            <div class="mini-card">
-              <div class="mini-title">Cross-Border</div>
-              <div class="mini-text">Scale with control</div>
-            </div>
-          </div>
-        </div>
-
-        <aside class="hero-aside" aria-label="Brand visual" data-animate>
-          <div class="glass-panel">
-            <div class="glass-top">
-              <div class="kpi">
-                <div class="kpi-value">UAE ↔ India</div>
-                <div class="kpi-label">Execution bridge</div>
-              </div>
-              <div class="kpi">
-                <div class="kpi-value">Ops + Tech</div>
-                <div class="kpi-label">Built to scale</div>
-              </div>
-            </div>
-            <div class="glass-bottom">
-              <div class="muted">
-                A disciplined delivery team blending UAE professionalism with Indian execution depth.
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section section-light">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2 class="section-title" data-animate>About Emarath Global</h2>
-            <p class="section-subtitle" data-animate>
-              India-based arm of Emarath UAE — technology, operations, sourcing, and expansion support for premium cross-border commerce.
-            </p>
-          </div>
-          <div class="section-note" data-animate>
-            HiLITE Business Park • Calicut (Kozhikode), Kerala
-          </div>
-        </div>
-
-        <div class="about-grid">
-          <div class="about-card" data-animate>
-            <h3 class="h3">A strategic hub for growth</h3>
-            <p class="body">
-              We support Emarath’s expanding presence across the Middle East and international markets through e-commerce operations,
-              digital infrastructure, supply chain coordination, and customer experience support for premium categories — perfumes, fashion,
-              watches, bags, and lifestyle products.
-            </p>
-
-            <div class="tag-row">
-              <span class="tag">Technology</span>
-              <span class="tag">Operations</span>
-              <span class="tag">Sourcing</span>
-              <span class="tag">Expansion</span>
-            </div>
-
-            <div class="about-actions">
-              <a class="btn btn-primary js-cta" href="#services" data-event="cta_services">Explore Services</a>
-              <a class="btn btn-ghost js-cta" href="#portfolio" data-event="cta_portfolio">View Portfolio</a>
-            </div>
-          </div>
-
-          <div class="media-card" data-animate>
-            <img src="assets/images/hero-2.png" alt="Emarath office branding" loading="lazy" />
-            <div class="media-overlay" aria-hidden="true"></div>
-            <div class="media-badge">UAE-linked operations</div>
-          </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero" style="background-image:url('assets/images/hero-1.png');">
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <h1>India-based arm of Emarath UAE</h1>
+        <p>Built to run premium commerce at scale.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Contact Us</a>
+          <a href="assets/company-profile.pdf" class="btn btn-secondary">Download Company Profile</a>
         </div>
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="section section-dark banner banner-services">
+    <!-- Trust Bar -->
+    <section class="trust-bar">
       <div class="container">
-        <div class="section-head section-head-invert">
-          <div>
-            <h2 class="section-title" data-animate>Services</h2>
-            <p class="section-subtitle" data-animate>
-              Strategic support for corporate clients, property, logistics, retail, and SMEs across UAE-linked operations.
-            </p>
-          </div>
+        <p>Dubai • Abu Dhabi • Sharjah • Calicut</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About Emarath Global</h2>
+          <p>Emarath Global Private Limited is the India-based arm of Emarath UAE, operating from HiLITE Business Park, Calicut (Kozhikode), Kerala. The company functions as a strategic hub for technology, operations, sourcing, and regional expansion, supporting Emarath’s growing presence across the Middle East and international markets.</p>
+          <p>Aligned with Emarath UAE, the Calicut team works closely with global stakeholders to ensure operational efficiency, quality control, and scalable cross-border commerce solutions for premium product categories.</p>
         </div>
-
-        <div class="grid-3">
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Business Consulting</h3>
-            <p class="card-text">Operational models, expansion planning, vendor strategy, and performance systems.</p>
-          </article>
-
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Trading &amp; Sourcing</h3>
-            <p class="card-text">Premium category sourcing, QA checks, vendor audits, and compliance alignment.</p>
-          </article>
-
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Project Management</h3>
-            <p class="card-text">Launch execution, stakeholder coordination, timelines, risk control, reporting.</p>
-          </article>
-
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Digital Solutions</h3>
-            <p class="card-text">E-commerce operations, tooling, analytics, and customer experience workflows.</p>
-          </article>
-
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Operations Support</h3>
-            <p class="card-text">Supply chain coordination, inventory flow, documentation, SLA-driven support.</p>
-          </article>
-
-          <article class="card card-glass" data-animate>
-            <h3 class="card-title">Customer Experience</h3>
-            <p class="card-text">Premium support standards, escalation playbooks, quality feedback loops.</p>
-          </article>
+        <div class="about-image">
+          <img src="assets/images/hero-2.png" alt="Emarath Global Office">
         </div>
       </div>
     </section>
 
-    <!-- PROCESS -->
-    <section id="process" class="section section-light">
+    <!-- Services -->
+    <section id="services" class="services section" style="background-image:url('assets/images/banner-services.png');">
+      <div class="overlay"></div>
       <div class="container">
-        <div class="section-head">
-          <div>
-            <h2 class="section-title" data-animate>Our Process</h2>
-            <p class="section-subtitle" data-animate>Simple, disciplined, repeatable — built for cross-border scale.</p>
-          </div>
-        </div>
-
-        <div class="process-grid">
-          <div class="process-card" data-animate>
-            <div class="step">01</div>
-            <h3 class="h3">Discover</h3>
-            <p class="body">We clarify goals, constraints, stakeholders, and success metrics.</p>
-          </div>
-
-          <div class="process-card" data-animate>
-            <div class="step">02</div>
-            <h3 class="h3">Design</h3>
-            <p class="body">We build the operational plan, sourcing strategy, and execution roadmap.</p>
-          </div>
-
-          <div class="process-card" data-animate>
-            <div class="step">03</div>
-            <h3 class="h3">Deliver</h3>
-            <p class="body">We execute with quality control, reporting, and tight timelines.</p>
-          </div>
-
-          <div class="process-card" data-animate>
-            <div class="step">04</div>
-            <h3 class="h3">Improve</h3>
-            <p class="body">We optimize for scale, cost, compliance, and customer experience.</p>
-          </div>
+        <h2>Core Focus Areas</h2>
+        <div class="grid">
+          <div class="card">E-commerce Operations</div>
+          <div class="card">Digital Infrastructure</div>
+          <div class="card">Supply Chain Coordination</div>
+          <div class="card">Customer Experience Support</div>
         </div>
       </div>
     </section>
 
-    <!-- PORTFOLIO -->
-    <section id="portfolio" class="section section-dark banner banner-portfolio">
+    <!-- Process -->
+    <section id="process" class="process section">
       <div class="container">
-        <div class="section-head section-head-invert">
-          <div>
-            <h2 class="section-title" data-animate>Portfolio</h2>
-            <p class="section-subtitle" data-animate>Representative engagements across sectors — outcomes first, noise last.</p>
-          </div>
-        </div>
-
-        <div class="filter-row" role="tablist" aria-label="Portfolio filters" data-animate>
-          <button class="filter-btn is-active" type="button" data-filter="all">All</button>
-          <button class="filter-btn" type="button" data-filter="Real Estate">Real Estate</button>
-          <button class="filter-btn" type="button" data-filter="Logistics">Logistics</button>
-          <button class="filter-btn" type="button" data-filter="Retail">Retail</button>
-          <button class="filter-btn" type="button" data-filter="Corporate">Corporate</button>
-          <button class="filter-btn" type="button" data-filter="Tech">Tech</button>
-        </div>
-
-        <div class="grid-3 portfolio-grid">
-          <article class="card card-glass project" data-industry="Retail" data-animate>
-            <div class="badge-row"><span class="tag dark">Retail</span><span class="tag dark">Operations</span></div>
-            <h3 class="card-title">Premium Category Ops Playbook</h3>
-            <p class="card-text">Reduced order handling time by 28% through SLA workflows and QA checkpoints.</p>
-          </article>
-
-          <article class="card card-glass project" data-industry="Logistics" data-animate>
-            <div class="badge-row"><span class="tag dark">Logistics</span><span class="tag dark">Supply chain</span></div>
-            <h3 class="card-title">Cross-Border Fulfillment Coordination</h3>
-            <p class="card-text">Improved delivery predictability with milestone tracking and exception routing.</p>
-          </article>
-
-          <article class="card card-glass project" data-industry="Tech" data-animate>
-            <div class="badge-row"><span class="tag dark">Tech</span><span class="tag dark">Analytics</span></div>
-            <h3 class="card-title">Operations Dashboard &amp; Reporting</h3>
-            <p class="card-text">Built executive KPI visibility for performance, cost, and quality signals.</p>
-          </article>
-
-          <article class="card card-glass project" data-industry="Real Estate" data-animate>
-            <div class="badge-row"><span class="tag dark">Real Estate</span><span class="tag dark">PMO</span></div>
-            <h3 class="card-title">Regional Expansion Support</h3>
-            <p class="card-text">Created rollout governance for multi-site operational scaling and vendor control.</p>
-          </article>
-
-          <article class="card card-glass project" data-industry="Retail" data-animate>
-            <div class="badge-row"><span class="tag dark">Retail</span><span class="tag dark">CX</span></div>
-            <h3 class="card-title">Customer Experience Standards</h3>
-            <p class="card-text">Introduced escalation playbooks to raise resolution quality and reduce repeat tickets.</p>
-          </article>
-
-          <article class="card card-glass project" data-industry="Corporate" data-animate>
-            <div class="badge-row"><span class="tag dark">Corporate</span><span class="tag dark">Governance</span></div>
-            <h3 class="card-title">Vendor Quality &amp; Compliance</h3>
-            <p class="card-text">Formalized checks for premium sourcing: audits, sampling, and corrective cycles.</p>
-          </article>
+        <h2>Capabilities</h2>
+        <p class="section-lead">Practical execution—built for speed, reliability, and scale.</p>
+        <div class="process-steps">
+          <div class="step"><h3>Operations</h3><p>Structured workflows, performance support, and repeatable execution.</p></div>
+          <div class="step"><h3>Digital Infrastructure</h3><p>Systems, tools, and automation to keep commerce stable and fast.</p></div>
+          <div class="step"><h3>Supply Chain</h3><p>Coordination across borders to maintain availability and quality.</p></div>
+          <div class="step"><h3>Customer Experience</h3><p>Premium-support alignment for consistency across markets.</p></div>
         </div>
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section id="testimonials" class="section section-dark banner banner-testimonials">
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio section" style="background-image:url('assets/images/banner-portfolio.png');">
+      <div class="overlay"></div>
       <div class="container">
-        <div class="section-head section-head-invert">
-          <div>
-            <h2 class="section-title" data-animate>Testimonials</h2>
-            <p class="section-subtitle" data-animate>Corporate tone. Real-world delivery expectations.</p>
-          </div>
-        </div>
-
-        <div class="grid-3">
-          <figure class="quote card card-glass" data-animate>
-            <blockquote>“Clear communication, disciplined delivery, and strong operational ownership. Exactly what cross-border scale needs.”</blockquote>
-            <figcaption>— Regional Operations Lead</figcaption>
-          </figure>
-
-          <figure class="quote card card-glass" data-animate>
-            <blockquote>“They improved our execution speed without sacrificing quality control. Reliable team with leadership-level reporting.”</blockquote>
-            <figcaption>— Program Manager, Retail</figcaption>
-          </figure>
-
-          <figure class="quote card card-glass" data-animate>
-            <blockquote>“Premium categories demand precision — Emarath’s standards and process control consistently met expectations.”</blockquote>
-            <figcaption>— Commercial Director</figcaption>
-          </figure>
+        <h2>Industries Served</h2>
+        <div class="grid">
+          <div class="card">Perfumes</div>
+          <div class="card">Fashion</div>
+          <div class="card">Watches</div>
+          <div class="card">Bags</div>
+          <div class="card">Lifestyle</div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section id="faq" class="section section-light">
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section" style="background-image:url('assets/images/banner-testimonials.png');">
+      <div class="overlay"></div>
       <div class="container">
-        <div class="section-head">
-          <div>
-            <h2 class="section-title" data-animate>FAQ</h2>
-            <p class="section-subtitle" data-animate>Quick answers for UAE-based clients and partners.</p>
-          </div>
-        </div>
-
-        <div class="accordion" data-animate>
-          <details class="qa">
-            <summary>What timelines should we expect for a new engagement?</summary>
-            <div class="qa-body">Most discovery-to-plan phases take 1–2 weeks. Execution timelines depend on scope, vendors, and compliance gates.</div>
-          </details>
-          <details class="qa">
-            <summary>Do you support compliance and documentation workflows?</summary>
-            <div class="qa-body">Yes — we build lightweight documentation, audit trails, QA checklists, and vendor compliance routines.</div>
-          </details>
-          <details class="qa">
-            <summary>How do you handle payment terms and commercial structure?</summary>
-            <div class="qa-body">We align on milestones, deliverables, and reporting. Terms can be structured monthly or phase-based, depending on the work.</div>
-          </details>
-          <details class="qa">
-            <summary>Can you work with existing vendors and internal teams?</summary>
-            <div class="qa-body">That’s the default. We integrate with your stakeholders and vendors using clear ownership, SLAs, and escalation paths.</div>
-          </details>
-          <details class="qa">
-            <summary>Which industries do you support?</summary>
-            <div class="qa-body">Corporate, property, logistics, retail, SMEs — especially UAE-linked operations and premium commerce categories.</div>
-          </details>
-          <details class="qa">
-            <summary>How do you ensure quality for premium categories?</summary>
-            <div class="qa-body">Defined standards, sampling routines, QA checkpoints, vendor audits, and continuous feedback loops.</div>
-          </details>
+        <h2>Trusted by Teams Who Value Execution</h2>
+        <div class="testimonials-grid">
+          <blockquote>“Consistent performance and reliability across our operations.”</blockquote>
+          <blockquote>“Strong coordination and quality control at every stage.”</blockquote>
+          <blockquote>“Execution-focused partner for premium commerce.”</blockquote>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section section-dark banner banner-contact">
+    <!-- FAQs -->
+    <section id="faq" class="faq section">
       <div class="container">
-        <div class="section-head section-head-invert">
-          <div>
-            <h2 class="section-title" data-animate>Contact</h2>
-            <p class="section-subtitle" data-animate>Let’s discuss scope, timelines, and outcomes. We respond fast — with clarity.</p>
-          </div>
-        </div>
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>What services does Emarath Global provide?</summary>
+          <p>We focus on technology, operations, sourcing, and cross-border commerce support for premium categories.</p>
+        </details>
+        <details>
+          <summary>Where are you located?</summary>
+          <p>Our India-based operations hub is located at HiLITE Business Park, Calicut (Kozhikode), Kerala.</p>
+        </details>
+        <details>
+          <summary>Do you support clients outside the UAE and India?</summary>
+          <p>Yes. We coordinate cross-border operations across the Middle East and international markets.</p>
+        </details>
+        <details>
+          <summary>How can I get in touch with your team?</summary>
+          <p>Reach us via <a href="mailto:info@emarathglobal.com">email</a> or <a href="https://wa.me/919048800047">WhatsApp</a>.</p>
+        </details>
+        <details>
+          <summary>Can I download your company profile?</summary>
+          <p>Yes, it’s available <a href="assets/company-profile.pdf">here</a>.</p>
+        </details>
+      </div>
+    </section>
 
-        <div class="contact-grid">
-          <div class="card card-glass" data-animate>
-            <h3 class="h3">Dubai Office</h3>
-            <p class="muted">Address placeholder — Dubai, UAE</p>
-
-            <div class="info-row">
-              <div class="info-label">Phone</div>
-              <a class="info-value" href="tel:+971000000000">+971 00 000 0000</a>
-            </div>
-
-            <div class="info-row">
-              <div class="info-label">Email</div>
-              <a class="info-value" href="mailto:info@emarathglobal.com">info@emarathglobal.com</a>
-            </div>
-
-            <a class="btn btn-whatsapp js-cta" href="https://wa.me/971000000000?text=Hi%20Emarath%20Global%2C%20I%20want%20to%20discuss%20a%20business%20requirement." target="_blank" rel="noreferrer" data-event="cta_whatsapp">
-              WhatsApp Us
-            </a>
-
-            <div class="map-box" aria-label="Map placeholder">
-              <div class="map-text">Map placeholder (embed later)</div>
-            </div>
-
-            <div class="office-hours">
-              <div class="hours-title">Office Hours</div>
-              <div class="muted">Mon–Sat: 9:30 AM – 6:30 PM (GST)</div>
-            </div>
-          </div>
-
-          <div class="card card-glass" data-animate>
-            <form id="contactForm" novalidate>
-              <div class="field">
-                <label for="name">Your Name</label>
-                <input id="name" name="name" type="text" autocomplete="name" required />
-                <div class="field-error" data-error-for="name"></div>
-              </div>
-
-              <div class="field">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" required />
-                <div class="field-error" data-error-for="email"></div>
-              </div>
-
-              <div class="field">
-                <label for="company">Company (optional)</label>
-                <input id="company" name="company" type="text" autocomplete="organization" />
-              </div>
-
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <div class="field-error" data-error-for="message"></div>
-              </div>
-
-              <button class="btn btn-primary btn-full js-cta" type="submit" data-event="form_submit">Submit</button>
-              <p class="form-note">By submitting, you agree to be contacted regarding your request. No spam. No nonsense.</p>
-
-              <div class="form-state" role="status" aria-live="polite"></div>
-            </form>
-          </div>
-        </div>
-
-        <footer class="site-footer" data-animate>
-          <div class="footer-left">
-            <div class="footer-brand">
-              <img src="assets/brand/mark.png" alt="" width="24" height="24" />
-              <strong>Emarath Global Private Limited</strong>
-            </div>
-            <p class="muted small">
-              India-based arm of Emarath UAE — technology, operations, sourcing, and expansion support for premium cross-border commerce.
-            </p>
-            <div class="footer-links">
-              <a href="#about">About</a>
-              <a href="#services">Services</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
-            </div>
-            <div class="small">© <span id="year"></span> Emarath Global Private Limited. All rights reserved.</div>
-          </div>
-
-          <div class="footer-right">
-            <div class="download-box">
-              <div class="download-title">Download</div>
-              <a class="btn btn-ghost btn-full js-cta" href="assets/company-profile.pdf" download data-event="footer_download">
-                Company Profile (PDF)
-              </a>
-            </div>
-
-            <button class="back-top" type="button" aria-label="Back to top">
-              Back to top ↑
-            </button>
-          </div>
-        </footer>
+    <!-- Contact -->
+    <section id="contact" class="contact section" style="background-image:url('assets/images/banner-contact.png');">
+      <div class="overlay"></div>
+      <div class="container contact-content">
+        <h2>Get in Touch</h2>
+        <p>📍 HiLITE Business Park, Calicut (Kozhikode), Kerala</p>
+        <p>📧 <a href="mailto:info@emarathglobal.com">info@emarathglobal.com</a></p>
+        <p>💬 <a href="https://wa.me/919048800047">WhatsApp: +91 90488 00047</a></p>
       </div>
     </section>
   </main>
 
-  <!-- Structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Emarath Global Private Limited",
-    "url": "https://emarathglobal.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dubai",
-      "addressCountry": "AE"
-    },
-    "email": "info@emarathglobal.com"
-  }
-  </script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/brand/logo.png" alt="Emarath Global Logo" class="footer-logo">
+        <p>© <span id="year"></span> Emarath Global Private Limited</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
 
-  <script src="script.js" defer></script>
+  <button id="backToTop" aria-label="Back to top">↑</button>
 </body>
 </html>
